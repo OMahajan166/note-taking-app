@@ -96,6 +96,6 @@ public class NoteController {
 
         noteService.deleteNote(id);
 
-        return "redirect:/";
+        return "redirect:/dashboard";
     }
 }
